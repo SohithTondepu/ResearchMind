@@ -11,7 +11,7 @@ Full reference for the `search_agent` (ResearchMind) project: what exists today,
 - `agents.py` — Gemini LLM setup (`gemini-3.6-flash`), `writer_chain`, `critic_chain`
 - `tools.py` — search + scrape functions
 - `pipeline.py` — CLI mirror of the same flow
-- `.env` — `GOOGLE_API_KEY`, `TAVILY_API_KEY`
+- `.env` — `GOOGLE_API_KEY`, `SEMANTIC_SCHOLAR_API_KEY`
 
 ### History of fixes (prior sessions)
 - Fixed import mismatch (`tool.py` → `tools.py`) and missing `streamlit` dependency
